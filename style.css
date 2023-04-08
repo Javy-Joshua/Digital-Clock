@@ -1,0 +1,122 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.body {
+  margin: 0 auto;
+  
+}
+
+.DC{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  background: url(./img/giorgio-trovato-b9KdwnKWhRk-unsplash.jpg);
+  color: azure;
+  background-size: cover;
+  padding: 18% 40%;
+  overflow: hidden;
+  
+}
+.row{
+  display: flex;
+  /* gap: 1em; */
+}
+
+.col{
+  /* padding: 0 1em; */
+  margin: 0 1em;
+}
+
+h2{
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 16px;
+  text-align: center;
+  
+}
+
+.clock{
+  text-align: center;
+  justify-content: center;
+}
+.col{
+  background-color: blueviolet;
+  opacity: 0.9;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px rgba(0, 0,0, .5);
+  width: 500px;
+  height: 9em;
+  padding:0 .7rem;
+  
+}
+
+
+
+#hours {
+  font-size: 6em;
+}
+
+#minutes {
+  font-size: 6em;
+}
+
+#seconds {
+  font-size: 6em;
+}
+
+.col .text {
+  font-size: 1rem;
+  background: chocolate;
+  letter-spacing: 2px;
+ padding: .3em .7em;
+}
+
+.col1{
+  display: flex;
+  align-self: flex-end;
+  padding-bottom: 10px;
+}
+
+#ampm{
+  bottom: 0;
+  font-size:1rem ;
+  background: chocolate;
+  letter-spacing: 2px;
+  padding: .3em .7em;
+  
+}
+
+.tran{
+  color: transparent;
+}
+
+@media screen and  (max-width:450){
+.col{
+   width: 300px;
+  height: 6em;
+}
+
+h2{
+  font-size: "";
+}
+
+#hours {
+  font-size: 3em;
+}
+
+#minutes {
+  font-size: 3em;
+}
+
+#seconds {
+  font-size: 3em;
+}
+
+}
+/* @media  {
+  
+} */
